@@ -3798,6 +3798,7 @@ Protein             3
 #include "posre.itp"
 #endif
 
+
 ; Include backbone restriction
 #ifdef GN_NO
 #include "backbone_restric.itp"
