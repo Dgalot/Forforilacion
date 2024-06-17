@@ -2,7 +2,7 @@
 ;	File 'eq1.mdp' was generated
 ;	By user: diana (1000)
 ;	On host: Nadja-HP-245-G5-Notebook-PC
-;	At date: Mon Jun 17 12:45:16 2024
+;	At date: Mon Jun 17 12:52:21 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2023.3 (-:
@@ -11,7 +11,7 @@
 ;	Data prefix:  /usr/local/gromacs
 ;	Working dir:  /home/diana/Escritorio/SimulacionFosforilacionPDB/MD/MD_Run
 ;	Command line:
-;	  gmx_mpi grompp -f ../eq1_CGPROT.mdp -p ../topol.top -po eq1.mdp -n ../1BLJ_cg_ions.ndx -c ../1BLJ_cg_ions.gro -r 1BLJ_cg_em2.gro -o 1BLJ_cg_eq1.tpr
+;	  gmx_mpi grompp -f ../eq1_CGPROT.mdp -p ../topol.top -po eq1.mdp -n ../1BLJ_cg_ions.ndx -c 1BLJ_cg_em2.gro -r 1BLJ_cg_em2.gro -o 1BLJ_cg_eq1.tpr
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen_vel                  = no
 gen_temp                 = 300
-gen_seed                 = -824377473
+gen_seed                 = -847722275
 
 ; OPTIONS FOR BONDS    
 constraints              = none
