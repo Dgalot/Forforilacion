@@ -2,16 +2,16 @@
 ;	File 'em1.mdp' was generated
 ;	By user: diana (1000)
 ;	On host: Nadja-HP-245-G5-Notebook-PC
-;	At date: Sun Jun 16 23:42:53 2024
+;	At date: Mon Jun 17 12:30:32 2024
 ;
 ;	Created by:
 ;	                     :-) GROMACS - gmx grompp, 2023.3 (-:
 ;	
 ;	Executable:   /usr/local/gromacs/bin/gmx_mpi
 ;	Data prefix:  /usr/local/gromacs
-;	Working dir:  /home/diana/Escritorio/SimulacionFosforilacionPDB/MDs_Protein/MD_Run
+;	Working dir:  /home/diana/Escritorio/SimulacionFosforilacionPDB/MD/MD_Run
 ;	Command line:
-;	  gmx_mpi grompp -f ../em1_CGPROT.mdp -p ../topol.top -po em1.mdp -n ../1BLJ_cg_ions.ndx -c ../1BLJ_cg_ions.gro -r ../1BLJ_cg_ions.gro -o 1BLJ_cg_em1.tpr
+;	  gmx_mpi grompp -f ../em1_CGPROT.mdp -p ../topol.top -po em1.mdp -n ../1BLJ_cg_ions.ndx -c ../1BLJ_cg_ions.gro -r ../1BLJ_cg_ions.gro -o 1BLJ_cg_em1.tpr -maxwarn 1
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen-vel                  = no
 gen-temp                 = 300
-gen-seed                 = -1720193537
+gen-seed                 = 1375202317
 
 ; OPTIONS FOR BONDS    
 constraints              = none
